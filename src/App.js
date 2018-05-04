@@ -13,7 +13,7 @@ class App extends Component {
       loading: false
     }
     //bind
-    //this.handleSubmit = this.handleSubmit.bind(this)
+    this.handleSubmit = this.handleSubmit.bind(this)
   }
 
   getUsers(){
